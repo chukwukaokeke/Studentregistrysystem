@@ -4,6 +4,6 @@ This code connects to a MySQL database and prompts the user for various pieces o
 
 Once all of the student information has been collected, the code uses an SQL INSERT statement to add a new record to the "student" table in the database, with the values for each column being the variables that hold the student's information. The code then executes the SQL statement using the mycursor.execute() method and commits the changes to the database using the mydb.commit() method.
 
-Finally, the code prints a message indicating the number of records that were inserted (which should be 1 in this case).
+Finally, the code prints a message indicating the number of records that were inserted.
 
 This code could be useful for adding new student records to a database, such as in a school system or other educational organization. It demonstrates how to connect to a MySQL database, how to collect and store user input, and how to use SQL statements to insert data into a database table.
